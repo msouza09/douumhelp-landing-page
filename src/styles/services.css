@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE600;
+  }
+  
+  .services-container {
+    background-color: #FFE600;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .services-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .service-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .service-btn {
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    transition: background 0.3s ease;
+  }
+  
+  .service-btn:hover {
+    background: #f8f9fa;
+  }
+  
+  .service-title {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .check-icon {
+    background-color: #FFE600;
+    color: #43B60E;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    font-size: 18px;
+  }
+  
+  .arrow-icon {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .service-details {
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 12px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  @media (max-width: 768px) {
+    .services-card {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    .service-btn {
+      font-size: 16px;
+      padding: 12px;
+    }
+  
+    .check-icon {
+      width: 25px;
+      height: 25px;
+      font-size: 14px;
+      margin-right: 8px;
+    }
+  
+    .arrow-icon {
+      font-size: 1rem;
+    }
+  
+    .service-details {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

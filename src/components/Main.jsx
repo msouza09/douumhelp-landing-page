@@ -26,7 +26,7 @@ const Main = () => {
         </div>
 
         <div className="col-12 col-md-6 d-none d-md-block">
-          <img src="/img/logo-white.png" alt="logo" className="img-fluid" style={{ width: "100%", maxWidth: "500px" }} />
+          <img src="/img/logo-white.png" alt="logo" className="img-fluid" style={{ width: "100%", maxWidth: "400px", marginLeft: "20rem" }} />
         </div>
       </div>
     </div>
