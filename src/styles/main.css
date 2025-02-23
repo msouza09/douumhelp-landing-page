@@ -1,0 +1,52 @@
+.main-title {
+    color: #FFE600;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.main-text {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: start;
+    gap: 20px; 
+  }
+
+.custom-btn {
+  width: auto; 
+  max-width: none; 
+  background-color: #FFE600 !important;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .main-title {
+      font-size: 32px;
+      margin-bottom: 50px;
+    }
+
+    .main-text {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 50px;
+    }
+
+    .custom-btn {
+      width: 65%;
+      margin-bottom: 15px; 
+    }
+  
+    .buttons-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+  }
